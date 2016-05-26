@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content_fragment"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
+   <include
+       layout="@layout/screen"/>
+
+    <include
+        layout="@layout/tools_bar"/>
+    <include
+        layout="@layout/keyboard_basic"/>
+   <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/keyboard_vp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+</LinearLayout>
 
 
