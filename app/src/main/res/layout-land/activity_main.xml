@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_fragment"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <include
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:layout_weight="1.5"
+       layout="@layout/screen"/>
+
+   <LinearLayout
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+       <include
+           layout="@layout/tools_bar"/>
+       <include
+           layout="@layout/keyboard_basic"/>
+
+   </LinearLayout>
+
+   <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/keyboard_vp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+</LinearLayout>
+
+
+
