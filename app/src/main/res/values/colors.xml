@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#6876c1</color>
+    <color name="colorPrimaryDark">#4a5179</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="green">#66e15d</color>
+    <color name="green">#5aa46e</color>
     <color name="backgroud_screen">#f9f8bf</color>
     <color name="keyboard_red">#ea6f6f</color>
-    <color name="keyboard_grey">#c1b1b6</color>
+    <color name="keyboard_deep_blue">#5523</color>
     <color name="keyboard_green">#a9d9</color>
     <color name="keyboard_white">#fff</color>
 </resources>
