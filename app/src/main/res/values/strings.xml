@@ -2,5 +2,14 @@
     <string name="app_name">BasicCalculatorMVP</string>
     <string name="history">History</string>
     <string name="clean_history">Clean History</string>
-
+    <string name="c">C</string>
+    <string name="left_parenthesis">(</string>
+    <string name="right_parenthesis">)</string>
+    <string name="division_sign">\u00F7</string>
+    <string name="multiply_sign">\u00D7</string>
+    <string name="minus_sign">\u2212</string>
+    <string name="plus_minus_sign">\u00B1</string>
+    <string name="plus_sign">\u002B</string>
+    <string name="dot_sign">.</string>
+    <string name="equals_sign">=</string>
 </resources>

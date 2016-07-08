@@ -1,83 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_column="4"
     android:layout_row="4"
     android:orientation="vertical"
- >
+    >
 
     <TextView
         android:id="@+id/clean_tv"
         style="@style/TextAppearance.AppCompat.Title"
-        android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="0"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_red"
         android:gravity="center"
-        android:text="C"/>
+        android:text="@string/c"/>
 
     <TextView
         android:id="@+id/left_parenthesis_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="0"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_deep_blue"
         android:gravity="center"
-        android:text="("/>
+        android:text="@string/left_parenthesis"/>
 
     <TextView
         android:id="@+id/right_parenthesis_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="2"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="0"
+        android:layout_rowWeight="1"
         android:gravity="center"
-        android:text=")"
+        android:text="@string/right_parenthesis"
         />
 
     <TextView
         android:id="@+id/division_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="3"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="0"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_green"
         android:gravity="center"
-        android:text="\u00F7"
+        android:text="@string/division_sign"
         />
 
     <TextView
         android:id="@+id/seven_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="1"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_red"
         android:gravity="center"
         android:text="7"/>
 
     <TextView
-        android:id="@+id/eigth_digit_tv"
+        android:id="@+id/eight_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="1"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_deep_blue"
         android:gravity="center"
         android:text="8"/>
@@ -97,149 +96,160 @@
     <TextView
         android:id="@+id/multiply_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="3"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="1"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_green"
         android:gravity="center"
-        android:text="\u00D7"
+        android:text="@string/multiply_sign"
         />
 
     <TextView
+        android:id="@+id/four_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
-      
         android:layout_column="0"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="2"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_red"
         android:gravity="center"
         android:text="4"/>
 
     <TextView
+        android:id="@+id/five_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="2"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_deep_blue"
         android:gravity="center"
         android:text="5"/>
 
     <TextView
+        android:id="@+id/six_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="2"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="2"
+        android:layout_rowWeight="1"
         android:gravity="center"
         android:text="6"
         />
 
     <TextView
+        android:id="@+id/minus_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="3"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="2"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_green"
         android:gravity="center"
-        android:text="\u2212"
+        android:text="@string/minus_sign"
         />
 
     <TextView
+        android:id="@+id/one_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="3"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_red"
         android:gravity="center"
         android:text="1"/>
 
     <TextView
+        android:id="@+id/two_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="3"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_deep_blue"
         android:gravity="center"
         android:text="2"/>
 
     <TextView
+        android:id="@+id/three_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="2"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="3"
+        android:layout_rowWeight="1"
         android:gravity="center"
         android:text="3"
         />
 
     <TextView
+       android:id="@+id/plus_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="3"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_row="3"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_green"
         android:gravity="center"
-        android:text="\u002B"
+        android:text="@string/plus_sign"
         />
 
 
     <TextView
+        android:id="@+id/dot_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="0.25"
         android:layout_gravity="fill"
         android:layout_row="4"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_red"
         android:gravity="center"
-        android:text="."/>
+        android:text="@string/dot_sign"/>
 
     <TextView
+        android:id="@+id/zero_digit_tv"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="0.25"
         android:layout_gravity="fill"
         android:layout_row="4"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_deep_blue"
         android:gravity="center"
         android:text="0"/>
 
     <TextView
+        android:id="@+id/plus_minus_sign_tv"
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_column="2"
         android:layout_columnWeight="0.25"
         android:layout_gravity="fill"
         android:layout_row="4"
         android:gravity="center"
-        android:text="\u00B1"
+        android:text="@string/plus_minus_sign"
         />
 
     <TextView
+        android:id="@+id/equals_sign"
         style="@style/TextAppearance.AppCompat.Title"
-          android:layout_rowWeight="1"
         android:layout_column="3"
         android:layout_columnWeight="0.25"
         android:layout_gravity="fill"
         android:layout_row="4"
+        android:layout_rowWeight="1"
         android:background="@color/keyboard_green"
         android:gravity="center"
-        android:text="="
+        android:text="@string/equals_sign"
         />
 </GridLayout>

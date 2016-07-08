@@ -13,6 +13,7 @@
         android:layout_height="@dimen/screen_size"
         android:gravity="right"
         android:padding="2dp"
+        android:inputType="textMultiLine"
         style="@style/TextAppearance.AppCompat.Title"
         android:text="94+02"/>
     <TextView
